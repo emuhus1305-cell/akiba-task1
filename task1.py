@@ -1,6 +1,4 @@
-print("===============================")
-print("    STUDENT INTRODUCTION")
-print("===============================")
+
 
 full_name = input("Enter your full name: ")
 age = input("Enter your age: ")
@@ -10,7 +8,10 @@ department = input("Enter your department: ")
 favorite_language = input("Enter your favorite programming language: ")
 goal = input("Enter your programming goal: ")
 
-print()
+print("===============================")
+print("    STUDENT INTRODUCTION")
+print("===============================")
+
 print(f"My name is {full_name}.")
 print(f"I am {age} years old.")
 print(f"I live in {city}.")
